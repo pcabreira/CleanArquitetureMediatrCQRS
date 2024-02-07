@@ -25,8 +25,6 @@ namespace PessoasAptas.Application.Queries.GetAllPessoas
                 .ToList();
 
             return pessoasViewModel;
-
-            return new List<PessoaViewModel>();
         }
     }
 }
